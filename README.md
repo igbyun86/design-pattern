@@ -6,7 +6,6 @@ behavioral patterns
 -------------
 
 + [strategy](https://github.com/igbyun86/design-pattern/tree/master/src/behavior/strategy)
-
 + [state](https://github.com/igbyun86/design-pattern/tree/master/src/behavior/state)
 
 
