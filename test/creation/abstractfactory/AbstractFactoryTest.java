@@ -7,6 +7,9 @@ import creation.abstractfactory.example1.Computer;
 import creation.abstractfactory.example1.ComputerFactory;
 import creation.abstractfactory.example1.PCFactory;
 import creation.abstractfactory.example1.ServerFactory;
+import creation.abstractfactory.example2.Application;
+import creation.abstractfactory.example2.MacFactory;
+import creation.abstractfactory.example2.WinFactory;
 
 /**
  * Abstract Factory Design Pattern Examples in JDK
@@ -20,7 +23,7 @@ import creation.abstractfactory.example1.ServerFactory;
 public class AbstractFactoryTest {
 
 	@Test
-	public void ComputerAbstractFactoryTest() {
+	public void computerAbstractFactoryTest() {
 		Computer pc = ComputerFactory.getComputer(new PCFactory("16GB", "1TB", "2.4GHz"));
 		Computer server = ComputerFactory.getComputer(new ServerFactory("32GB", "10TB", "3.2GHz"));
 		
@@ -30,5 +33,17 @@ public class AbstractFactoryTest {
 		System.out.println("AbstractFactory PC Config : " + pc.toString());
 		System.out.println("AbstractFactory Server Config : " + server.toString());
 		
+	}
+	
+	@Test
+	public void applicationFactoryTest() {
+		Application winApp = new Application(new WinFactory());
+		Application macApp = new Application(new MacFactory());
+		
+		winApp.createUI();
+		macApp.createUI();
+		
+		winApp.paint();
+		macApp.paint();
 	}
 }
