@@ -19,12 +19,7 @@ public class Dollar10Dispenser implements DispenseChain {
 			
 			if (remainder != 0) {
 				if (this.chain == null) {
-					try {
-						this.chain.dispense(new Currency(remainder));
-					}
-					catch (Exception e) {
-						System.out.println("더이상 나눌수 없습니다.");
-					}
+					throw new RuntimeException("더이상 나눌수 없습니다.");
 				}
 			}
 		}
