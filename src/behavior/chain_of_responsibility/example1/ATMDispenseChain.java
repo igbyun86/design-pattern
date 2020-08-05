@@ -14,6 +14,6 @@ public class ATMDispenseChain {
 	}
 	
 	public void excute(int amount) {
-		chain.dispanse(new Currency(amount));
+		chain.dispense(new Currency(amount));
 	}
 }

@@ -10,18 +10,18 @@ public class Dollar50Dispenser implements DispenseChain {
 	}
 
 	@Override
-	public void dispanse(Currency currency) {
+	public void dispense(Currency currency) {
 		if (currency.getAmount() >= 50) {
 			int num = currency.getAmount() / 50;
 			int remainder = currency.getAmount() % 50;
 			System.out.println("Dispensing " + num + " 50$ note");
 			
 			if (remainder != 0) {
-				this.chain.dispanse(new Currency(remainder));
+				this.chain.dispense(new Currency(remainder));
 			}
 		}
 		else {
-			this.chain.dispanse(currency);
+			this.chain.dispense(currency);
 		}
 	}
 

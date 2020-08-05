@@ -9,5 +9,5 @@ public interface DispenseChain {
 
 	void setNextChain(DispenseChain nextChain);
 	
-	void dispanse(Currency currency);
+	void dispense(Currency currency);
 }

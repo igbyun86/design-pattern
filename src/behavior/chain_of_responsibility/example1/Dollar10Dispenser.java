@@ -10,7 +10,7 @@ public class Dollar10Dispenser implements DispenseChain {
 	}
 
 	@Override
-	public void dispanse(Currency currency) {
+	public void dispense(Currency currency) {
 		if (currency.getAmount() >= 10) {
 			int num = currency.getAmount() / 10;
 			int remainder = currency.getAmount() % 10;
@@ -20,7 +20,7 @@ public class Dollar10Dispenser implements DispenseChain {
 			if (remainder != 0) {
 				if (this.chain == null) {
 					try {
-						this.chain.dispanse(new Currency(remainder));
+						this.chain.dispense(new Currency(remainder));
 					}
 					catch (Exception e) {
 						System.out.println("더이상 나눌수 없습니다.");
@@ -29,7 +29,7 @@ public class Dollar10Dispenser implements DispenseChain {
 			}
 		}
 		else {
-			this.chain.dispanse(currency);
+			this.chain.dispense(currency);
 		}
 	}
 
