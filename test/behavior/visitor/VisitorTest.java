@@ -1,7 +1,7 @@
 package behavior.visitor;
 
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.jupiter.api.Assertions;
 
 import behavior.visitor.example1.Book;
 import behavior.visitor.example1.Fruit;
@@ -20,7 +20,7 @@ public class VisitorTest {
 		items[3] = new Fruit(5, 5, "Apple");
 		
 		int total = calculatePrice(items);
-		Assertions.assertEquals(160, total);
+		Assert.assertEquals(160, total);
 	}
 	
 	private int calculatePrice(ItemElement[] items) {

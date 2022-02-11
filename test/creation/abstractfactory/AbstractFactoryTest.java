@@ -1,7 +1,7 @@
 package creation.abstractfactory;
 
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.jupiter.api.Assertions;
 
 import creation.abstractfactory.example1.Computer;
 import creation.abstractfactory.example1.ComputerFactory;
@@ -26,10 +26,10 @@ public class AbstractFactoryTest {
 	public void computerAbstractFactoryTest() {
 		Computer pc = ComputerFactory.getComputer(new PCFactory("16GB", "1TB", "2.4GHz"));
 		Computer server = ComputerFactory.getComputer(new ServerFactory("32GB", "10TB", "3.2GHz"));
-		
-		Assertions.assertNotNull(pc);
-		Assertions.assertNotNull(server);
-		
+
+		Assert.assertNotNull(pc);
+		Assert.assertNotNull(server);
+
 		System.out.println("AbstractFactory PC Config : " + pc.toString());
 		System.out.println("AbstractFactory Server Config : " + server.toString());
 		

@@ -3,8 +3,8 @@ package creation.factory;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.jupiter.api.Assertions;
 
 import creation.factory.example1.Computer;
 import creation.factory.example1.ComputerFactory;
@@ -13,8 +13,8 @@ import creation.factory.example1.ComputerFactory;
  * Factory Design Pattern Examples in JDK
  * java.util.Calendar, ResourceBundle and NumberFormat getInstance() methods uses Factory pattern.
  * 
- * Calendar class´Â super classÀÌ°í 
- * subclass·Î GregorianCalendar class°¡ ÀÖ´Ù.
+ * Calendar classï¿½ï¿½ super classï¿½Ì°ï¿½ 
+ * subclassï¿½ï¿½ GregorianCalendar classï¿½ï¿½ ï¿½Ö´ï¿½.
  * 
  * @author big
  *
@@ -26,14 +26,14 @@ public class FactoryTest {
 		Computer pc = ComputerFactory.getComputer("PC", "16GB", "1TB", "2.4GHz");
 		Computer server = ComputerFactory.getComputer("Server", "32GB", "10TB", "3.2GHz");
 		
-		Assertions.assertNotNull(pc);
-		Assertions.assertNotNull(server);
+		Assert.assertNotNull(pc);
+		Assert.assertNotNull(server);
 		
 		System.out.println("Factory PC Config : " + pc.toString());
 		System.out.println("Factory Server Config : " + server.toString());
 		
 		Calendar c = Calendar.getInstance();
-		Assertions.assertTrue(c instanceof GregorianCalendar);
+		Assert.assertTrue(c instanceof GregorianCalendar);
 		
 	}
 }

@@ -1,8 +1,8 @@
 package behavior.state;
 
 
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.jupiter.api.Assertions;
 
 import behavior.state.example1.State;
 import behavior.state.example1.TVContext;
@@ -24,11 +24,11 @@ public class StateTest {
 		State tvStopState = new TVStopState();
 		
 		context.setTvState(tvStartState);
-		Assertions.assertTrue(context.getTvState() instanceof TVStartState);
+		Assert.assertTrue(context.getTvState() instanceof TVStartState);
 		context.doAction();		// TV is turned ON
 		
 		context.setTvState(tvStopState);
-		Assertions.assertTrue(context.getTvState() instanceof TVStopState);
+		Assert.assertTrue(context.getTvState() instanceof TVStopState);
 		context.doAction();		// TV is turned OFF
 		
 	}

@@ -1,7 +1,7 @@
 package creation.builder;
 
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.jupiter.api.Assertions;
 
 import creation.builder.example1.Computer;
 
@@ -20,9 +20,9 @@ public class BuilderTest {
 										.setGraphicsCardEnabled(true)
 										.build();
 									
-		Assertions.assertEquals("1TB", computer.getHDD());
-		Assertions.assertEquals(true, computer.isGraphicsCardEnabled());
-		Assertions.assertEquals(false, computer.isBluetoothEnabled());
+		Assert.assertEquals("1TB", computer.getHDD());
+		Assert.assertEquals(true, computer.isGraphicsCardEnabled());
+		Assert.assertEquals(false, computer.isBluetoothEnabled());
 									
 	}
 }
