@@ -30,7 +30,7 @@ public class ScoreRecord3 implements IScoreRecord {
     public void addScore(int score) {
         scores.add(score);          //scores 목록에 주어진 점수를 추가함
 
-        dataSheetViews.forEach(v -> v.update());    //각 DataSheetView에 값의 변경을 통보
+        dataSheetViews.forEach(DataSheetView::update);    //각 DataSheetView에 값의 변경을 통보
 
         // min, max update 변경
         minMaxView.update();

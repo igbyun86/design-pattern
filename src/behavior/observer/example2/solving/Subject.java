@@ -18,6 +18,6 @@ public abstract class Subject {
 
     //통보 대상 목록, 즉 observers의 각 옵서버에게 변경을 통보함
     public void notifyObservers() {
-        observers.forEach(o -> o.update());
+        observers.forEach(Observer::update);
     }
 }
