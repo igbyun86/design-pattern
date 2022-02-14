@@ -2,6 +2,10 @@ package behavior.observer.example2.solving;
 
 import java.util.stream.IntStream;
 
+/**
+ * 데이터의 변경이 발생했을 경우 상대 클래스나 객체에 의존하지 않으면서
+ * 데이터 변경을 통보하고자 할때 유용하다.
+ */
 public class Client {
 
     public static void main(String[] args) {
