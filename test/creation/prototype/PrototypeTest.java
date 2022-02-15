@@ -18,19 +18,19 @@ public class PrototypeTest {
 		Employees empsNew2 = (Employees) emps.clone();
 		
 		List<String> list = empsNew.getEmpList();
-		list.add("±æ");
+		list.add("ê¸¸");
 		
 		List<String> list2 = empsNew2.getEmpList();
-		list2.remove("³ëÈ«Ã¶");
+		list2.remove("ë…¸í™ì² ");
 		
 		System.out.println("emps List : " + emps.getEmpList());
 		System.out.println("empsNew List : " + list);
 		System.out.println("empsNew2 List : " + list2);
 		
 		/*
-			emps List : [À¯Àç¼®, ¹Ú¸í¼ö, ÇÏÇÏ, ³ëÈ«Ã¶, Á¤Çüµ·, Á¤ÁØÇÏ]
-			empsNew List : [À¯Àç¼®, ¹Ú¸í¼ö, ÇÏÇÏ, ³ëÈ«Ã¶, Á¤Çüµ·, Á¤ÁØÇÏ, ±æ]
-			empsNew2 List : [À¯Àç¼®, ¹Ú¸í¼ö, ÇÏÇÏ, Á¤Çüµ·, Á¤ÁØÇÏ]
+			emps List : [ìœ ì¬ì„, ë°•ëª…ìˆ˜, í•˜í•˜, ë…¸í™ì² , ì •í˜•ëˆ, ì •ì¤€í•˜]
+			empsNew List : [ìœ ì¬ì„, ë°•ëª…ìˆ˜, í•˜í•˜, ë…¸í™ì² , ì •í˜•ëˆ, ì •ì¤€í•˜, ê¸¸]
+			empsNew2 List : [ìœ ì¬ì„, ë°•ëª…ìˆ˜, í•˜í•˜, ì •í˜•ëˆ, ì •ì¤€í•˜]
 		*/
 	}
 

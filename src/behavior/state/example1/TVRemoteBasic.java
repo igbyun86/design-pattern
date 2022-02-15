@@ -1,7 +1,7 @@
 package behavior.state.example1;
 
 /**
- * »óÅÂ°¡ Ãß°¡µÇ¸é doActionÀÇ ³»¿ëÀ» Ç×»ó º¯°æÇØ¾ßÇÏ´Â ¹®Á¦°¡ ÀÖ´Ù.
+ * ìƒíƒœê°€ ì¶”ê°€ë˜ë©´ doActionì˜ ë‚´ìš©ì„ í•­ìƒ ë³€ê²½í•´ì•¼í•˜ëŠ” ë¬¸ì œê°€ ìžˆë‹¤.
  * @author big
  *
  */

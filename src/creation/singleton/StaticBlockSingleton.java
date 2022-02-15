@@ -1,7 +1,7 @@
 package creation.singleton;
 
 /**
- * EagerInitializedSingletonÀÇ ±â´É°ú ºñ½ÁÇÏÁö¸¸ ¿¹¿ÜÃ³¸®°¡ Æ÷ÇÔµÇ¾îÀÖ´Ù.
+ * EagerInitializedSingletonì˜ ê¸°ëŠ¥ê³¼ ë¹„ìŠ·í•˜ì§€ë§Œ ì˜ˆì™¸ì²˜ë¦¬ê°€ í¬í•¨ë˜ì–´ìˆë‹¤.
  * @author big
  *
  */

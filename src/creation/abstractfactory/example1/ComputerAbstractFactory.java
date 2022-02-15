@@ -2,8 +2,8 @@ package creation.abstractfactory.example1;
 
 /**
  * Abstract Factory
- * super class¸¦ ¸®ÅÏÇÑ´Ù.
- * interface ¶Ç´Â abstract class°¡ µÉ¼ö ÀÖ´Ù.
+ * super classë¥¼ ë¦¬í„´í•œë‹¤.
+ * interface ë˜ëŠ” abstract classê°€ ë ìˆ˜ ìˆë‹¤.
  * @author big
  *
  */

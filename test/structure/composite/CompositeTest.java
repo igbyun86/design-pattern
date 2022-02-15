@@ -9,8 +9,8 @@ import structure.composite.example1.Square;
 import structure.composite.example1.Triangle;
 
 /**
- * ¿©·¯°³ÀÇ °´Ã¼°¡ ÇÏ³ªÀÇ °´Ã¼Ã³·³ µ¿ÀÛÇØ¾ßÇÏ´Â °æ¿ì »ç¿ëÇÒ ¼ö ÀÖ´Ù.
- * Æ®¸®¿Í °°Àº ±¸Á¶¸¦ ¸¸µé¼ö ÀÖ´Ù.
+ * ì—¬ëŸ¬ê°œì˜ ê°ì²´ê°€ í•˜ë‚˜ì˜ ê°ì²´ì²˜ëŸ¼ ë™ìž‘í•´ì•¼í•˜ëŠ” ê²½ìš° ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
+ * íŠ¸ë¦¬ì™€ ê°™ì€ êµ¬ì¡°ë¥¼ ë§Œë“¤ìˆ˜ ìžˆë‹¤.
  * @author big
  *
  */

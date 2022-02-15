@@ -1,8 +1,8 @@
 package creation.singleton;
 
 /**
- * ³»ºÎ Á¤ÀûÅ¬·¡½º¸¦ »ç¿ëÇÏ±â ¶§¹®¿¡ ½ÇÇàÀü±îÁö ¸Þ¸ð¸®¿¡ ·ÎµåµÇÁö ¾ÊÀ¸¸ç
- * synchronized Å°¿öµå¸¦ »ç¿ëÇÏÁö ¾Ê°í thread safeÇÏ°Ô »ç¿ëÇÒ ¼ö ÀÖ´Ù.
+ * ë‚´ë¶€ ì •ì í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ê¸° ë•Œë¬¸ì— ì‹¤í–‰ì „ê¹Œì§€ ë©”ëª¨ë¦¬ì— ë¡œë“œë˜ì§€ ì•Šìœ¼ë©°
+ * synchronized í‚¤ì›Œë“œë¥¼ ì‚¬ìš©í•˜ì§€ ì•Šê³  thread safeí•˜ê²Œ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
  * @author big
  *
  */

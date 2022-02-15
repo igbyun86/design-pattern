@@ -2,8 +2,8 @@ package behavior.visitor.example1;
 
 /**
  * concrete visitor class
- * Ç×¸ñº° ·ÎÁ÷ ±¸¼º
- * ·ÎÁ÷ÀÌ º¯°æµÇ°Å³ª Ãß°¡µÇ´Â °æ¿ì ÇØ´ç visitor class¸¸ º¯°æÇÏ¸é µÈ´Ù.
+ * í•­ëª©ë³„ ë¡œì§ êµ¬ì„±
+ * ë¡œì§ì´ ë³€ê²½ë˜ê±°ë‚˜ ì¶”ê°€ë˜ëŠ” ê²½ìš° í•´ë‹¹ visitor classë§Œ ë³€ê²½í•˜ë©´ ëœë‹¤.
  * @author big
  *
  */

@@ -27,7 +27,7 @@ public class ProxyTest {
 		 	Print 
 			---------------------------------------------------
 			'ipconfig' command executed.
-			Exeception Message : rm ¸í·É¾î´Â °ü¸®ÀÚ¸¸ ½ÇÇàÇÒ ¼ö ÀÖ½À´Ï´Ù.
+			Exeception Message : rm ëª…ë ¹ì–´ëŠ” ê´€ë¦¬ìë§Œ ì‹¤í–‰í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤.
 		 */
 	}
 	
@@ -65,22 +65,22 @@ public class ProxyTest {
 			Retrieved 11111 youtube title video from cache.
 			11111 youtube title playing!
 			
-			popular ¹«ÇÑµµÀü ¸ğÀ½.avi playing!
-			popular ¾î¸°ÀÌ µ¿¿ä.mp4 playing!
-			popular ¾îº¥Àú½º.mkv playing!
+			popular ë¬´í•œë„ì „ ëª¨ìŒ.avi playing!
+			popular ì–´ë¦°ì´ ë™ìš”.mp4 playing!
+			popular ì–´ë²¤ì €ìŠ¤.mkv playing!
 			
-			popular ¹«ÇÑµµÀü ¸ğÀ½.avi playing!
-			popular ¾î¸°ÀÌ µ¿¿ä.mp4 playing!
-			popular ¾îº¥Àú½º.mkv playing!
+			popular ë¬´í•œë„ì „ ëª¨ìŒ.avi playing!
+			popular ì–´ë¦°ì´ ë™ìš”.mp4 playing!
+			popular ì–´ë²¤ì €ìŠ¤.mkv playing!
 			
-			popular ¹«ÇÑµµÀü ¸ğÀ½.avi playing!
-			popular ¾î¸°ÀÌ µ¿¿ä.mp4 playing!
-			popular ¾îº¥Àú½º.mkv playing!
+			popular ë¬´í•œë„ì „ ëª¨ìŒ.avi playing!
+			popular ì–´ë¦°ì´ ë™ìš”.mp4 playing!
+			popular ì–´ë²¤ì €ìŠ¤.mkv playing!
 			
 			Retrieved popular video from cache.
-			popular ¹«ÇÑµµÀü ¸ğÀ½.avi playing!
-			popular ¾î¸°ÀÌ µ¿¿ä.mp4 playing!
-			popular ¾îº¥Àú½º.mkv playing!
+			popular ë¬´í•œë„ì „ ëª¨ìŒ.avi playing!
+			popular ì–´ë¦°ì´ ë™ìš”.mp4 playing!
+			popular ì–´ë²¤ì €ìŠ¤.mkv playing!
 	
 		*/
 	}

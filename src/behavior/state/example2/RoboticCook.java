@@ -1,7 +1,7 @@
 package behavior.state.example2;
 
 /**
- * Robot Cook »óÅÂ
+ * Robot Cook ìƒíƒœ
  * @author big
  *
  */
@@ -14,8 +14,8 @@ public class RoboticCook implements RoboticState {
 	}
 	
 	/**
-	 * Walk °¡´É
-	 * On »óÅÂ º¯°æ
+	 * Walk ê°€ëŠ¥
+	 * On ìƒíƒœ ë³€ê²½
 	 */
 	@Override
 	public void walk() {
@@ -24,7 +24,7 @@ public class RoboticCook implements RoboticState {
 	}
 
 	/**
-	 * Cook °¡´É
+	 * Cook ê°€ëŠ¥
 	 */
 	@Override
 	public void cook() {
@@ -32,7 +32,7 @@ public class RoboticCook implements RoboticState {
 	}
 
 	/**
-	 * ¿ä¸®Áß¿£ Off ºÒ°¡´É
+	 * ìš”ë¦¬ì¤‘ì—” Off ë¶ˆê°€ëŠ¥
 	 */
 	@Override
 	public void off() {

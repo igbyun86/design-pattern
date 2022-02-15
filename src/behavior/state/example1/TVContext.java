@@ -15,7 +15,7 @@ public class TVContext implements State {
 
 
 	/**
-	 * ÇöÀç »óÅÂ¸¦ ÂüÁ¶ÇÏ¿© »óÅÂ¿¡ ´ëÇÑ ±¸ÇöÀ» ½ÇÇà
+	 * í˜„ì¬ ìƒíƒœë¥¼ ì°¸ì¡°í•˜ì—¬ ìƒíƒœì— ëŒ€í•œ êµ¬í˜„ì„ ì‹¤í–‰
 	 */
 	@Override
 	public void doAction() {

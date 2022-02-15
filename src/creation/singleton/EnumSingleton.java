@@ -1,8 +1,8 @@
 package creation.singleton;
 
 /**
- * BillPughSingleton ¹æ½Ä°ú ºñ½ÁÇÏ°Ô »ç¿ëÇÒ ¼ö ÀÖÀ¸³ª
- * enumÀº Áö¿¬ÃÊ±âÈ­¸¦ Çã¿ëÇÏÁö ¾Ê´Â´Ù.
+ * BillPughSingleton ë°©ì‹ê³¼ ë¹„ìŠ·í•˜ê²Œ ì‚¬ìš©í•  ìˆ˜ ìˆìœ¼ë‚˜
+ * enumì€ ì§€ì—°ì´ˆê¸°í™”ë¥¼ í—ˆìš©í•˜ì§€ ì•ŠëŠ”ë‹¤.
  * @author big
  *
  */
@@ -11,6 +11,6 @@ public enum EnumSingleton {
 	INSTANCE;
 	
 	public void doSomething() {
-		System.out.println("EnumSingleton °´Ã¼ »ı¼º!!");
+		System.out.println("EnumSingleton ê°ì²´ ìƒì„±!!");
 	}
 }

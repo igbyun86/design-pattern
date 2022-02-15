@@ -11,10 +11,10 @@ public class ObserverTest {
 	@Test
 	public void topicTest() {
 		MyTopic topic = new MyTopic();
-		Observer subscriber1 = new MyTopicSubscriber("±¸µ¶ÀÚ1");
-		Observer subscriber2 = new MyTopicSubscriber("±¸µ¶ÀÚ2");
-		Observer subscriber3 = new MyTopicSubscriber("±¸µ¶ÀÚ3");
-		Observer subscriber4 = new MyTopicSubscriber("±¸µ¶ÀÚ4");
+		Observer subscriber1 = new MyTopicSubscriber("êµ¬ë…ì1");
+		Observer subscriber2 = new MyTopicSubscriber("êµ¬ë…ì2");
+		Observer subscriber3 = new MyTopicSubscriber("êµ¬ë…ì3");
+		Observer subscriber4 = new MyTopicSubscriber("êµ¬ë…ì4");
 		
 		topic.register(subscriber1);
 		topic.register(subscriber2);
@@ -28,6 +28,6 @@ public class ObserverTest {
 		
 		subscriber1.update();
 		
-		topic.postMessage("»õ·Î¿î ³»¿ëÀÌ ¾÷µ¥ÀÌÆ® µÇ¾ú½À´Ï´Ù!");
+		topic.postMessage("ìƒˆë¡œìš´ ë‚´ìš©ì´ ì—…ë°ì´íŠ¸ ë˜ì—ˆìŠµë‹ˆë‹¤!");
 	}
 }

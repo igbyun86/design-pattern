@@ -1,9 +1,9 @@
 package creation.singleton;
 
 /**
- * ÃÊ±â¿¡ ÀÎ½ºÅÏ½º »ı¼º
- * ÀÛ¼ºÇÏ±â °¡Àå ½¬¿î ¹æ¹ıÀÌÁö¸¸ ¸Ş¼­µå¸¦ È£ÃâÇÏÁö ¾Ê¾Æµµ ÀÎ½ºÅÏ½ºÈ­µÊ.
- * ¿¹¿ÜÃ³¸®¸¦ Ã³¸®ÇÒ ¼ö ÀÖ´Â ¹æ¹ıÀÌ ¾øÀ½.
+ * ì´ˆê¸°ì— ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
+ * ì‘ì„±í•˜ê¸° ê°€ì¥ ì‰¬ìš´ ë°©ë²•ì´ì§€ë§Œ ë©”ì„œë“œë¥¼ í˜¸ì¶œí•˜ì§€ ì•Šì•„ë„ ì¸ìŠ¤í„´ìŠ¤í™”ë¨.
+ * ì˜ˆì™¸ì²˜ë¦¬ë¥¼ ì²˜ë¦¬í•  ìˆ˜ ìˆëŠ” ë°©ë²•ì´ ì—†ìŒ.
  * @author big
  *
  */
@@ -11,7 +11,7 @@ public class EagerInitializedSingleton {
 	
 	private static final EagerInitializedSingleton INSTANCE = new EagerInitializedSingleton();
 	
-	// »ı¼ºÀÚ¸¦ ÅëÇÑ ÀÎ½ºÅÏ½º »ı¼ºÀ» ¸·±â À§ÇØ privateÀ¸·Î ¼±¾ğ
+	// ìƒì„±ìë¥¼ í†µí•œ ì¸ìŠ¤í„´ìŠ¤ ìƒì„±ì„ ë§‰ê¸° ìœ„í•´ privateìœ¼ë¡œ ì„ ì–¸
 	private EagerInitializedSingleton() {}
 	
 	public EagerInitializedSingleton getInstance() {

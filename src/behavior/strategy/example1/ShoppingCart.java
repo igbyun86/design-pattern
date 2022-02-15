@@ -29,7 +29,7 @@ public class ShoppingCart {
 	}
 	
 	/**
-	 * ±¸Çöclass¿¡ µû¶ó °áÁ¦¹æ½ÄÀÌ º¯°æ
+	 * êµ¬í˜„classì— ë”°ë¼ ê²°ì œë°©ì‹ì´ ë³€ê²½
 	 * @param paymentMethod
 	 */
 	public void pay(PaymentStrategy paymentMethod) {

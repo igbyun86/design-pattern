@@ -17,12 +17,12 @@ public class Employees implements Cloneable {
 	
 	public void loadData() {
 		//read all employees from database and put into the list
-		empList.add("À¯Àç¼®");
-		empList.add("¹Ú¸í¼ö");
-		empList.add("ÇÏÇÏ");
-		empList.add("³ëÈ«Ã¶");
-		empList.add("Á¤Çüµ·");
-		empList.add("Á¤ÁØÇÏ");
+		empList.add("ìœ ì¬ì„");
+		empList.add("ë°•ëª…ìˆ˜");
+		empList.add("í•˜í•˜");
+		empList.add("ë…¸í™ì² ");
+		empList.add("ì •í˜•ëˆ");
+		empList.add("ì •ì¤€í•˜");
 	}
 	
 	public List<String> getEmpList() {

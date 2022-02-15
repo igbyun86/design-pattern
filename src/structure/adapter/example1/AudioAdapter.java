@@ -1,7 +1,7 @@
 package structure.adapter.example1;
 
 /**
- * ¿Àµğ¿À interface¿¡ video ÆÄÀÏ ¿Àµğ¿À±â´ÉÀ» Àû¿ëÇÑ adapter class
+ * ì˜¤ë””ì˜¤ interfaceì— video íŒŒì¼ ì˜¤ë””ì˜¤ê¸°ëŠ¥ì„ ì ìš©í•œ adapter class
  * @author big
  *
  */

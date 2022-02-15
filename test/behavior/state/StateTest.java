@@ -13,9 +13,9 @@ import behavior.state.example2.Robot;
 public class StateTest {
 
 	/**
-	 * »óÅÂº°·Î °´Ã¼¸¦ »ı¼ºÇÏ±â ¶§¹®¿¡ »óÅÂ°¡ Ãß°¡µÇµµ
-	 * Context class´Â º¯°æµÇÁö ¾Ê´Â´Ù.
-	 * state ÆĞÅÏÀº if-else³ª switch¹®À» ÇÇÇÏ´Âµ¥ µµ¿òÀ» ÁØ´Ù.
+	 * ìƒíƒœë³„ë¡œ ê°ì²´ë¥¼ ìƒì„±í•˜ê¸° ë•Œë¬¸ì— ìƒíƒœê°€ ì¶”ê°€ë˜ë„
+	 * Context classëŠ” ë³€ê²½ë˜ì§€ ì•ŠëŠ”ë‹¤.
+	 * state íŒ¨í„´ì€ if-elseë‚˜ switchë¬¸ì„ í”¼í•˜ëŠ”ë° ë„ì›€ì„ ì¤€ë‹¤.
 	 */
 	@Test
 	public void TVRemoteTest() {

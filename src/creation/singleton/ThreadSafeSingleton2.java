@@ -1,9 +1,9 @@
 package creation.singleton;
 
 /**
- * synchronized Å°¿öµå·Î ¼º´ÉÀúÇÏ°¡ ÀÖÁö¸¸
- * block synchronized¸¦ »ç¿ëÇÏ¿© ÃÊ±âÀÇ ¸î°³ ¾²·¹µå¸¸ÀÌ Á¢±ÙÇÏ±â ¶§¹®¿¡
- * thread safeÇÏ°Ô »ç¿ëÇÒ ¼ö ÀÖ´Ù.
+ * synchronized í‚¤ì›Œë“œë¡œ ì„±ëŠ¥ì €í•˜ê°€ ìˆì§€ë§Œ
+ * block synchronizedë¥¼ ì‚¬ìš©í•˜ì—¬ ì´ˆê¸°ì˜ ëª‡ê°œ ì“°ë ˆë“œë§Œì´ ì ‘ê·¼í•˜ê¸° ë•Œë¬¸ì—
+ * thread safeí•˜ê²Œ ì‚¬ìš©í•  ìˆ˜ ìˆë‹¤.
  * @author big
  *
  */

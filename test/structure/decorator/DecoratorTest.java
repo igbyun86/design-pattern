@@ -8,8 +8,8 @@ import structure.decorator.example1.LuxuryCar;
 import structure.decorator.example1.SportsCar;
 
 /**
- * Decorator ÆĞÅÏÀº ·±Å¸ÀÓ½Ã¿¡ ÇÊ¿ä¿¡ µû¶ó ±â´ÉÀ» È®ÀåÇÒ ¼ö ÀÖ´Ù.
- * Decorator ÆĞÅÏÀº Java IO class¿¡¼­ ¸¹ÀÌ »ç¿ëµÈ´Ù.
+ * Decorator íŒ¨í„´ì€ ëŸ°íƒ€ì„ì‹œì— í•„ìš”ì— ë”°ë¼ ê¸°ëŠ¥ì„ í™•ì¥í•  ìˆ˜ ìˆë‹¤.
+ * Decorator íŒ¨í„´ì€ Java IO classì—ì„œ ë§ì´ ì‚¬ìš©ëœë‹¤.
  * ex) FileReader, BufferedReader...
  * @author big
  *

@@ -20,7 +20,7 @@ public class MyTopic implements Subject {
 			throw new NullPointerException("Null Observer");
 		}
 
-		// µ¿±âÈ­
+		// ë™ê¸°í™”
 		synchronized (MUTEX) {
 			if (!observers.contains(obj)) {
 				this.observers.add(obj);
@@ -30,7 +30,7 @@ public class MyTopic implements Subject {
 
 	@Override
 	public void unregister(Observer obj) {
-		// µ¿±âÈ­
+		// ë™ê¸°í™”
 		synchronized (MUTEX) {
 			this.observers.remove(obj);
 		}
@@ -38,7 +38,7 @@ public class MyTopic implements Subject {
 
 	@Override
 	public void notifyObservers() {
-		// List´Â µ¿±âÈ­°¡ ¾ÈµÇ±â ¶§¹®¿¡ µ¿±âÈ­ÇÏ¿© »ç¿ëÇÒ List »ı¼º
+		// ListëŠ” ë™ê¸°í™”ê°€ ì•ˆë˜ê¸° ë•Œë¬¸ì— ë™ê¸°í™”í•˜ì—¬ ì‚¬ìš©í•  List ìƒì„±
 		List<Observer> observersLocal = null;
 		
 		synchronized (MUTEX) {

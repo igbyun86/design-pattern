@@ -1,8 +1,8 @@
 package creation.singleton;
 
 /**
- * ´ÜÀÏ ¾²·¹µåÈ¯°æ¿¡¼­´Â ¹®Á¦°¡ ¾øÁö¸¸ 
- * ´ÙÁß¾²·¹µåÈ¯°æ¿¡¼­´Â ¿©·¯°³ÀÇ instance°¡ »ý¼ºµÉ¼ö ÀÖ´Â ¹®Á¦°¡ ¹ß»ýÇÑ´Ù.
+ * ë‹¨ì¼ ì“°ë ˆë“œí™˜ê²½ì—ì„œëŠ” ë¬¸ì œê°€ ì—†ì§€ë§Œ 
+ * ë‹¤ì¤‘ì“°ë ˆë“œí™˜ê²½ì—ì„œëŠ” ì—¬ëŸ¬ê°œì˜ instanceê°€ ìƒì„±ë ìˆ˜ ìžˆëŠ” ë¬¸ì œê°€ ë°œìƒí•œë‹¤.
  * @author big
  *
  */

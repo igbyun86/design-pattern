@@ -8,8 +8,8 @@ import behavior.mediator.example1.User;
 import behavior.mediator.example1.UserImpl;
 
 /**
- * °´Ã¼°£ÀÇ Åë½ÅÀÌ º¹ÀâÇÑ°æ¿ì »ç¿ë
- * Observer pattern°ú ´Ù¸£°Ô ¼­·Î °üÂûÇÏ´Â ÇüÅÂÀÌ´Ù.
+ * ê°ì²´ê°„ì˜ í†µì‹ ì´ ë³µì¡í•œê²½ìš° ì‚¬ìš©
+ * Observer patternê³¼ ë‹¤ë¥´ê²Œ ì„œë¡œ ê´€ì°°í•˜ëŠ” í˜•íƒœì´ë‹¤.
  * @author big
  *
  */
@@ -18,16 +18,16 @@ public class MediatorTest {
 	@Test
 	public void chatMediatorTest() {
 		ChatMediator mediator = new ChatMediatorImpl();
-		User user1 = new UserImpl(mediator, "À¯Àç¼®");
-		User user2 = new UserImpl(mediator, "¹Ú¸í¼ö");
-		User user3 = new UserImpl(mediator, "Á¤Çüµ·");
-		User user4 = new UserImpl(mediator, "ÇÏÇÏ");
+		User user1 = new UserImpl(mediator, "ìœ ì¬ì„");
+		User user2 = new UserImpl(mediator, "ë°•ëª…ìˆ˜");
+		User user3 = new UserImpl(mediator, "ì •í˜•ëˆ");
+		User user4 = new UserImpl(mediator, "í•˜í•˜");
 		
 		mediator.addUser(user1);
 		mediator.addUser(user2);
 		mediator.addUser(user3);
 		mediator.addUser(user4);
 		
-		user1.send("¸ğµÎ ¾È³ç!");
+		user1.send("ëª¨ë‘ ì•ˆë…•!");
 	}
 }

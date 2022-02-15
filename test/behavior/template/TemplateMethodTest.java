@@ -7,10 +7,10 @@ import behavior.template.example1.HouseTemplate;
 import behavior.template.example1.WoodenHouse;
 
 /**
- * Template method ÆĞÅÏ
- * ¼ø¼­°¡ º¸ÀåµÇ¾ß ÇÏ°Å³ª Æ¯Á¤ ºÎºĞ¸¸ º¯°æÇÏ¿© »ç¿ëÇÒ ¶§ 
- * super class¿¡¼­ sub class¸¦ È£Ãâ
- * sub class¿¡¼­ overrideÇÏÁö ¾ÊÀ¸·Á¸é final·Î ¼±¾ğ
+ * Template method íŒ¨í„´
+ * ìˆœì„œê°€ ë³´ì¥ë˜ì•¼ í•˜ê±°ë‚˜ íŠ¹ì • ë¶€ë¶„ë§Œ ë³€ê²½í•˜ì—¬ ì‚¬ìš©í•  ë•Œ 
+ * super classì—ì„œ sub classë¥¼ í˜¸ì¶œ
+ * sub classì—ì„œ overrideí•˜ì§€ ì•Šìœ¼ë ¤ë©´ finalë¡œ ì„ ì–¸
  * @author big
  *
  */
@@ -20,7 +20,7 @@ public class TemplateMethodTest {
 	public void buildTest() {
 		HouseTemplate houseType = new WoodenHouse();
 		
-		//template method »ç¿ë
+		//template method ì‚¬ìš©
 		houseType.buildHouse();
 		
 		System.out.println("=============================");

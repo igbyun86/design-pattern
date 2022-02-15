@@ -9,8 +9,8 @@ public class RoboticOff implements RoboticState {
 	}
 	
 	/**
-	 * Walk °¡´É
-	 * On »óÅÂ º¯°æ
+	 * Walk ê°€ëŠ¥
+	 * On ìƒíƒœ ë³€ê²½
 	 */
 	@Override
 	public void walk() {
@@ -19,7 +19,7 @@ public class RoboticOff implements RoboticState {
 	}
 
 	/**
-	 * Off»óÅÂ¿¡¼­ Cook ºÒ°¡´É
+	 * Offìƒíƒœì—ì„œ Cook ë¶ˆê°€ëŠ¥
 	 */
 	@Override
 	public void cook() {
@@ -27,7 +27,7 @@ public class RoboticOff implements RoboticState {
 	}
 
 	/**
-	 * ÀÌ¹Ì Off »óÅÂ ¸Ş¼¼Áö 
+	 * ì´ë¯¸ Off ìƒíƒœ ë©”ì„¸ì§€ 
 	 */
 	@Override
 	public void off() {

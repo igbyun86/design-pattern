@@ -1,7 +1,7 @@
 package behavior.state.example1;
 
 /**
- * ±¸Ã¼ÀûÀÎ »óÅÂ¿Í context class·Î ±¸ÇöÇØ¾ßÇÒ interface
+ * êµ¬ì²´ì ì¸ ìƒíƒœì™€ context classë¡œ êµ¬í˜„í•´ì•¼í•  interface
  * @author big
  *
  */

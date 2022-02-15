@@ -14,13 +14,13 @@ public class CommandTest {
 
 	@Test
 	public void fileSystemTest() {
-		// ÇöÀç OS¿¡ ¸Â´Â receiver object »ı¼º
+		// í˜„ì¬ OSì— ë§ëŠ” receiver object ìƒì„±
 		FileSystemReceiver fs = FileSystemReceiverUtil.getUnderlyingFileSystem();
 		
-		// open file command object »ı¼º
+		// open file command object ìƒì„±
 		Command command = new OpenFileCommand(fs);
 		
-		// command ½ÇÇà
+		// command ì‹¤í–‰
 		FileInvoker file = new FileInvoker(command);
 		file.execute();
 		

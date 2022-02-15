@@ -11,7 +11,7 @@ public class PaypalStrategy implements PaymentStrategy {
 	}
 	
 	/**
-	 * ÀÔ·Â¹ŞÀº Á¤º¸·Î °áÁ¦Ã³¸®
+	 * ì…ë ¥ë°›ì€ ì •ë³´ë¡œ ê²°ì œì²˜ë¦¬
 	 */
 	@Override
 	public void pay(int amount) {

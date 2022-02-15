@@ -18,7 +18,7 @@ public class Robot implements RoboticState {
 		this.roboticCook = new RoboticCook(this);
 		this.roboticOff = new RoboticOff(this);
 		
-		// Robotюл ╩Щ╪╨╣г╦И On╩Себ
+		// RobotЛ²╢ Л┐²Л└╠К░≤К╘╢ OnЛ┐│М┐°
 		this.state = roboticOn;
 	}
 	
