@@ -4,9 +4,9 @@ import behavior.template.example2.problem.Direction;
 import behavior.template.example2.problem.Door;
 
 /**
- * ÀüÃ¼ÀûÀ¸·Î´Â µ¿ÀÏÇÏ¸é¼­ ºÎºÐÀûÀ¸·Î´Â ´Ù¸¥ ±¸¹®À¸·Î ±¸¼ºµÈ
- * ¸Þ¼­µåÀÇ ÄÚµå Áßº¹À» ÃÖ¼ÒÈ­ÇÒ ¶§ À¯¿ëÇÏ´Ù
- * µ¿ÀÏÇÑ ±â´ÉÀ» »óÀ§ Å¬·¡½º¿¡¼­ Á¤ÀÇÇÏ¸é¼­ È®Àå/º¯È­°¡ ÇÊ¿äÇÑ ºÎºÐ¸¸ ¼­ºê Å¬·¡½º¿¡¼­ ±¸ÇöÇÒ ¼ö ÀÖµµ·Ï ÇÑ´Ù.
+ * ì „ì²´ì ìœ¼ë¡œëŠ” ë™ì¼í•˜ë©´ì„œ ë¶€ë¶„ì ìœ¼ë¡œëŠ” ë‹¤ë¥¸ êµ¬ë¬¸ìœ¼ë¡œ êµ¬ì„±ëœ
+ * ë©”ì„œë“œì˜ ì½”ë“œ ì¤‘ë³µì„ ìµœì†Œí™”í•  ë•Œ ìœ ìš©í•˜ë‹¤
+ * ë™ì¼í•œ ê¸°ëŠ¥ì„ ìƒìœ„ í´ëž˜ìŠ¤ì—ì„œ ì •ì˜í•˜ë©´ì„œ í™•ìž¥/ë³€í™”ê°€ í•„ìš”í•œ ë¶€ë¶„ë§Œ ì„œë¸Œ í´ëž˜ìŠ¤ì—ì„œ êµ¬í˜„í•  ìˆ˜ ìžˆë„ë¡ í•œë‹¤.
  */
 public class Client {
     public static void main(String[] args) {

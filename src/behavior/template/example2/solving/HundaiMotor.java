@@ -11,7 +11,7 @@ public class HundaiMotor extends Motor {
 
     @Override
     protected void moveHyundaiMotor(Direction direction) {
-        //HyundaiMotor¸¦ ±¸µ¿½ÃÅ´
+        //HyundaiMotorë¥¼ êµ¬ë™ì‹œí‚´
         System.out.println("Hyundai Motor : " + direction);
     }
 }
