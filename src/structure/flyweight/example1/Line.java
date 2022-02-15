@@ -8,7 +8,7 @@ public class Line implements Shape {
 	public Line() {
 		System.out.println("Creating Line object");
 		
-		// µô·¹ÀÌ ½Ã°£ Ãß°¡
+		// ë”œë ˆì´ ì‹œê°„ ì¶”ê°€
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {

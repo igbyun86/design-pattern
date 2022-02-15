@@ -12,10 +12,10 @@ import javax.swing.JPanel;
 import structure.flyweight.example1.ShapeFactory.ShapeType;
 
 /**
- * Flyweight ÆÐÅÏÀº °´Ã¼ÀÇ °íÀ¯¼Ó¼ºÀ» °¡Á®°¡¸é¼­ ¿ÜºÎ¼Ó¼º¸¸ º¯°æÇÏ¿©
- * °´Ã¼¸¦ »ç¿ëÇÏ´Â °æ¿ì °´Ã¼¸¦ °øÀ¯ÇÏ¿© »ç¿ëÇÒ ¼ö ÀÖ´Ù.
- * ¿¹Á¦¿¡¼­ ¹Ù²îÁö ¾Ê´Â ¼Ó¼ºÀº ¼±, Å¸¿øÀÇ ¸ð¾çÀÌ°í
- * ±æÀÌ³ª »ý»óÀº client¿¡¼­ º¯°æÇÏ¿© °´Ã¼¸¦ °øÀ¯ÇØ¼­ »ç¿ëÇÑ´Ù. 
+ * Flyweight íŒ¨í„´ì€ ê°ì²´ì˜ ê³ ìœ ì†ì„±ì„ ê°€ì ¸ê°€ë©´ì„œ ì™¸ë¶€ì†ì„±ë§Œ ë³€ê²½í•˜ì—¬
+ * ê°ì²´ë¥¼ ì‚¬ìš©í•˜ëŠ” ê²½ìš° ê°ì²´ë¥¼ ê³µìœ í•˜ì—¬ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
+ * ì˜ˆì œì—ì„œ ë°”ë€Œì§€ ì•ŠëŠ” ì†ì„±ì€ ì„ , íƒ€ì›ì˜ ëª¨ì–‘ì´ê³ 
+ * ê¸¸ì´ë‚˜ ìƒìƒì€ clientì—ì„œ ë³€ê²½í•˜ì—¬ ê°ì²´ë¥¼ ê³µìœ í•´ì„œ ì‚¬ìš©í•œë‹¤. 
  * @author big
  *
  */

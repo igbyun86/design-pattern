@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * cache¸¦ »ı¼ºÇÏ¿© ÀüÃ³¸® ÀÛ¾÷À» ÇÏ´Â proxy °´Ã¼
+ * cacheë¥¼ ìƒì„±í•˜ì—¬ ì „ì²˜ë¦¬ ì‘ì—…ì„ í•˜ëŠ” proxy ê°ì²´
  * @author big
  *
  */
@@ -19,8 +19,8 @@ public class YoutubeCacheProxy implements ThirdPartyYoutube {
 	}
 	
 	/**
-	 * cache¿¡ data°¡ ÀÖÀ¸¸é cache¿¡ ÀÖ´Â popularVideos¸¦ ¸®ÅÏÇÏ°í
-	 * ¾øÀ¸¸é »ı¼ºÇÑ´Ù.
+	 * cacheì— dataê°€ ìˆìœ¼ë©´ cacheì— ìˆëŠ” popularVideosë¥¼ ë¦¬í„´í•˜ê³ 
+	 * ì—†ìœ¼ë©´ ìƒì„±í•œë‹¤.
 	 */
 	@Override
 	public Map<String, Video> popularVideos() {
@@ -36,8 +36,8 @@ public class YoutubeCacheProxy implements ThirdPartyYoutube {
 	}
 
 	/**
-	 * cache¿¡ data°¡ ÀÖÀ¸¸é cache¿¡ ÀÖ´Â video¸¦ ¸®ÅÏÇÏ°í
-	 * ¾øÀ¸¸é »ı¼ºÇÑ´Ù.
+	 * cacheì— dataê°€ ìˆìœ¼ë©´ cacheì— ìˆëŠ” videoë¥¼ ë¦¬í„´í•˜ê³ 
+	 * ì—†ìœ¼ë©´ ìƒì„±í•œë‹¤.
 	 */
 	@Override
 	public Video getVideo(String videoId) {
@@ -54,7 +54,7 @@ public class YoutubeCacheProxy implements ThirdPartyYoutube {
 	}
 	
 	/**
-	 * cache ÃÊ±âÈ­
+	 * cache ì´ˆê¸°í™”
 	 */
 	public void reset() {
 		cachePopular.clear();

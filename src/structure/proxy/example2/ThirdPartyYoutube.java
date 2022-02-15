@@ -3,7 +3,7 @@ package structure.proxy.example2;
 import java.util.Map;
 
 /**
- * youtube ´Ù¿î·Îµå±â´ÉÀÌ ÀÖ´Â library interface
+ * youtube ë‹¤ìš´ë¡œë“œê¸°ëŠ¥ì´ ìˆëŠ” library interface
  * @author big
  *
  */

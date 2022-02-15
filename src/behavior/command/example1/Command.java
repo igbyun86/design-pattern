@@ -2,7 +2,7 @@ package behavior.command.example1;
 
 /**
  * Command interface
- * »ç¿ë¿¡µû¶ó interface or abstract class°¡ µÉ¼ö ÀÖ´Ù.
+ * ì‚¬ìš©ì—ë”°ë¼ interface or abstract classê°€ ë ìˆ˜ ìˆë‹¤.
  * @author big
  *
  */

@@ -1,7 +1,7 @@
 package behavior.command.example1;
 
 /**
- * Factory patternÀ» ÀÌ¿ëÇÑ util class
+ * Factory patternì„ ì´ìš©í•œ util class
  * @author big
  *
  */

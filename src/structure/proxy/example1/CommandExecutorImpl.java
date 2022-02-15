@@ -3,7 +3,7 @@ package structure.proxy.example1;
 import java.io.IOException;
 
 /**
- * command½ÇÇàÀ» À§ÇÑ interface ±¸Çö class
+ * commandì‹¤í–‰ì„ ìœ„í•œ interface êµ¬í˜„ class
  * @author big
  *
  */

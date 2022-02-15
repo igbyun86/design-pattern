@@ -20,17 +20,17 @@ public class Drawing implements Shape {
 		}
 	}
 
-	// shape Ãß°¡
+	// shape ì¶”ê°€
 	public void add(Shape s) {
 		shapes.add(s);
 	}
 	
-	// shape »èÁ¦
+	// shape ì‚­ì œ
 	public void remove(Shape s) {
 		shapes.remove(s);
 	}
 	
-	// ¸ðµç shape »èÁ¦
+	// ëª¨ë“  shape ì‚­ì œ
 	public void clear() {
 		System.out.println("Clearing all shapes from drawing");
 		shapes.clear();

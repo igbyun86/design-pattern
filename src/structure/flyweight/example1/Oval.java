@@ -11,7 +11,7 @@ public class Oval implements Shape {
 		this.isFill = isFill;
 		System.out.println("Creating Oval with fill = " + isFill);
 		
-		// µô·¹ÀÌ ½Ã°£ Ãß°¡
+		// ë”œë ˆì´ ì‹œê°„ ì¶”ê°€
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {

@@ -1,7 +1,7 @@
 package structure.proxy.example1;
 
 /**
- * command½ÇÇàÀ» À§ÇÑ interface
+ * commandì‹¤í–‰ì„ ìœ„í•œ interface
  * @author big
  *
  */

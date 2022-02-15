@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * youtube ´Ù¿î·Îµå±â´É ±¸Çö
+ * youtube ë‹¤ìš´ë¡œë“œê¸°ëŠ¥ êµ¬í˜„
  * @author big
  *
  */
@@ -13,9 +13,9 @@ public class ThirdPartyYoutubeImpl implements ThirdPartyYoutube {
 	@Override
 	public Map<String, Video> popularVideos() {
 		Map<String, Video> videoMap = new HashMap<String, Video>();
-		videoMap.put("11", new Video("aaa", "¹«ÇÑµµÀü ¸ğÀ½.avi"));
-		videoMap.put("55", new Video("eee", "¾î¸°ÀÌ µ¿¿ä.mp4"));
-		videoMap.put("66", new Video("fff", "¾îº¥Àú½º.mkv"));
+		videoMap.put("11", new Video("aaa", "ë¬´í•œë„ì „ ëª¨ìŒ.avi"));
+		videoMap.put("55", new Video("eee", "ì–´ë¦°ì´ ë™ìš”.mp4"));
+		videoMap.put("66", new Video("fff", "ì–´ë²¤ì €ìŠ¤.mkv"));
 		
 		return videoMap;
 	}

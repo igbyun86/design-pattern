@@ -5,8 +5,8 @@ import java.util.Map;
 
 /**
  * Flyweight Factory
- * ÇÑ¹ø »ý¼ºµÈ °´Ã¼´Â °øÀ¯°´Ã¼¿¡ ´ã±â°í
- * Àç È£ÃâµÇ´Â °æ¿ì °øÀ¯°´Ã¼¿¡¼­ ²¨³» »ç¿ëÇÑ´Ù.
+ * í•œë²ˆ ìƒì„±ëœ ê°ì²´ëŠ” ê³µìœ ê°ì²´ì— ë‹´ê¸°ê³ 
+ * ìž¬ í˜¸ì¶œë˜ëŠ” ê²½ìš° ê³µìœ ê°ì²´ì—ì„œ êº¼ë‚´ ì‚¬ìš©í•œë‹¤.
  * @author big
  *
  */

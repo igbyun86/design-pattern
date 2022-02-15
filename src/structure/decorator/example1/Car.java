@@ -2,7 +2,7 @@ package structure.decorator.example1;
 
 /**
  * Component interface
- * interface ¶Ç´Â abstract class°¡ µÉ¼ö ÀÖ´Ù.
+ * interface ë˜ëŠ” abstract classê°€ ë ìˆ˜ ìˆë‹¤.
  * @author big
  *
  */

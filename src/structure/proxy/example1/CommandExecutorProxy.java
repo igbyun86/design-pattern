@@ -1,9 +1,9 @@
 package structure.proxy.example1;
 
 /**
- * CommandExecutorImpl °´Ã¼¸¦ proxyÇÏ´Â class
- * °°Àº interface¸¦ »ó¼Ó¹Ş¾Æ ±¸ÇöÇÑ´Ù.
- * ±ÇÇÑ¿¡ µû¶ó Ã³¸®ÇÏµµ·Ï Ãß°¡
+ * CommandExecutorImpl ê°ì²´ë¥¼ proxyí•˜ëŠ” class
+ * ê°™ì€ interfaceë¥¼ ìƒì†ë°›ì•„ êµ¬í˜„í•œë‹¤.
+ * ê¶Œí•œì— ë”°ë¼ ì²˜ë¦¬í•˜ë„ë¡ ì¶”ê°€
  * @author big
  *
  */
@@ -27,7 +27,7 @@ public class CommandExecutorProxy implements CommandExecutor {
 		}
 		else {
 			if (cmd.trim().startsWith("rm")) {
-				throw new Exception("rm ¸í·É¾î´Â °ü¸®ÀÚ¸¸ ½ÇÇàÇÒ ¼ö ÀÖ½À´Ï´Ù.");
+				throw new Exception("rm ëª…ë ¹ì–´ëŠ” ê´€ë¦¬ìë§Œ ì‹¤í–‰í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤.");
 			}
 			else {
 				executor.runCommand(cmd);	

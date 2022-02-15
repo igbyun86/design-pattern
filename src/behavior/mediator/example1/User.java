@@ -2,7 +2,7 @@ package behavior.mediator.example1;
 
 /**
  * Mediator Pattern Colleague
- * Interface ¶Ç´Â abstract class·Î ±¸Çö
+ * Interface ë˜ëŠ” abstract classë¡œ êµ¬í˜„
  * @author big
  *
  */

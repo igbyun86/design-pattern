@@ -2,7 +2,7 @@ package creation.factory.example1;
 
 /**
  * Super class
- * Super class´Â interface, abstract class, normal class°¡ µÉ¼ö ÀÖ´Ù.
+ * Super classëŠ” interface, abstract class, normal classê°€ ë ìˆ˜ ìˆë‹¤.
  * @author big
  *
  */
